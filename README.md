@@ -1,4 +1,4 @@
-# OIBSIP_DataScience_Task2 – Sales Prediction
+# OIBSIP_DataScience_Task1 – Sales Prediction
 
 ## 📌 Objective
 Create a machine learning model to predict sales using factors like MRP, outlet size, item type, and outlet location.
