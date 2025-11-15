@@ -1,34 +1,30 @@
-# OIBSIP_DataScience_Task2 – Sales Prediction
+# OIBSIP_DataScience_Task2 – car price prediction
 
 ## 📌 Objective
-Create a machine learning model to predict sales using factors like MRP, outlet size, item type, and outlet location.
+The objective of this task is to build a machine learning model that predicts the selling price of a car using features such as year, mileage, fuel type, transmission, and engine details.
 
-## 🛠 Tools Used
-- Python
-- Pandas, NumPy
-- Matplotlib, Seaborn
-- Scikit-learn
-- Jupyter Notebook
+## 🛠️ Tools Used
+- Python  
+- Jupyter Notebook / Google Colab  
+- Pandas, NumPy  
+- Matplotlib, Seaborn  
+- Scikit-learn (Random Forest, Train-Test Split, Evaluation Metrics)
 
 ## 🔧 Steps Performed
-1. Loaded and inspected the dataset
-2. Cleaned missing values and duplicates
-3. Performed EDA and plotted visualizations
-4. Encoded categorical variables
-5. Trained ML models (Linear Regression, Random Forest)
-6. Evaluated using MSE, MAE, RMSE, R²
-7. Predicted sales for new data
+1. Imported the dataset using Pandas  
+2. Cleaned the data and handled missing values  
+3. Performed Exploratory Data Analysis (EDA)  
+4. Visualized relationships using charts  
+5. Encoded categorical variables  
+6. Selected important features  
+7. Trained Machine Learning models  
+8. Evaluated performance using MAE, MSE, RMSE, R²  
+9. Predicted car selling prices using the trained model  
 
 ## 📈 Outcome
-The Random Forest model performed best and produced accurate sales predictions.
+The **Random Forest Regressor** provided strong accuracy and predicted car prices reliably based on the given features.
 
-## ▶️ How to Run
-1. Install the required libraries
-2. Open the `.ipynb` notebook in Jupyter or Colab
-3. Run all cells
-
-## 📁 Files Included
-- Dataset (CSV)
-- SalesPredict.ipynb
-- Screenshots
-- README.md
+## ▶️ How to Run the Project
+1. Install all required Python libraries  
+2. Open the `.ipynb` file in Jupyter Notebook or Google Colab  
+3. Run the cells step-by-step to
